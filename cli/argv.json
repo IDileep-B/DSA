@@ -1,0 +1,7 @@
+n= int(input("Enter the size: "))
+num= 1
+for row in range(n):
+    for col in range (n):
+        print(num,end=' ')
+        num+= 1
+        print()
